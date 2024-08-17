@@ -117,7 +117,7 @@ class Volunteer extends Component {
 				{/* <hr />  */}
 
 			<div className="ImageClass">
-             <img  style ={{width: '400pxa'}} src={PurpleRibbon} />
+             <img  style ={{width: '100%'}} src={PurpleRibbon} />
 			 <div className="centered" style={{position: 'absolute', color: 'white', backgroundColor: 'purple', padding: '20px', width: '350px', height:'200px'}}>
 				<Row> 
 					<Col md={{ span: 6, offset: 3 }}> 

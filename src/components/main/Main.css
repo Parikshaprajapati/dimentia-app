@@ -11,14 +11,16 @@
 
   .ImageClass {
     display: none;
-    position: relative;
+    position: absolute;
+    left: 0;
     display: inline-block;
-    max-width: 480px;
+    /* max-width: 480px; */
     margin: auto;
-    width: 400px;
-    min-width: 320px;
+    width: 100%;
+    /* min-width: 320px; */
   text-align: center;
   color: white;
+
 
   }
 

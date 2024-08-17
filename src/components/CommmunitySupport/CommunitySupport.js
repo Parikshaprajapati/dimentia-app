@@ -87,7 +87,7 @@ class CommunitySupport extends React.Component {
         <div>
            <Header title="Care Bridge" subtitle="     " />
             <div className="ImageClass">
-             <img  style ={{width: '400pxa'}} src={PurpleRibbon} /> 
+             <img  style ={{width: '100%'}} src={PurpleRibbon} /> 
              <div className="centered" style={{position: 'absolute', color: 'white', backgroundColor: 'purple', width: '350px',heigth:'800px'}}>
             <div id="CommPage" className="app" style={{position: 'relative'}}>
             <MessageList messages={this.state.messages} />

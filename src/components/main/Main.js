@@ -21,7 +21,7 @@ export default function Header(props) {
     <div className="main" >
       <h2>{props.message}</h2>
       <div className="ImageClass">
-      <img  style ={{width: '400pxa'}} src={PurpleRibbon} />
+      <img  style ={{width: '100%'}} src={PurpleRibbon} />
       
       <div className="centered" style={{position: 'absolute', color: 'white', backgroundColor: 'purple', padding: '20px', width: '250px'}}>
       People with dementia, their carers and families worldwide continue to experience stigma, discrimination and human rights violations. Moreover, dementia is frequently misconceived as a natural and inevitable part of ageing. The first step to dispelling myths and stereotypes is to provide accurate information to improve public understanding of dementia.
